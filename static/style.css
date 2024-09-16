@@ -1,0 +1,47 @@
+li{
+  list-style: none;
+  padding: 20px;
+}
+.gallery {
+  border: solid 5px blue;
+  border-radius: 30px;
+  height: 380px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+}
+
+img{
+  width: 300px;
+  height: 300px;
+  border: solid 2px black;
+  border-radius: 20px;
+}
+
+button{
+  background-color: red;
+  color: white;
+  border: solid 1px red;
+  border-radius: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.container{
+  border : solid 3px black;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.form{
+background-color: aqua;
+padding: 20px;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+border: solid 3px black;
+border-radius: 20px;
+}

@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Environment variables
+.env
+*.env
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Flask session and instance files
+instance/
+*.pyo
+*.pyd
+
+# Uploads
+/static/uploads/*
+
+# Logs
+*.log
+
+# Virtual environment
+venv/
+ENV/
+env/
+venv.bak/
+
+# IDE specific
+.vscode/
+.idea/
+
+# Mac OS specific
+.DS_Store

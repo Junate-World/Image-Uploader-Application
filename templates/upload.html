@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Image</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <h1>Upload an Image</h1>
+
+    <div class="container">
+        <form method="POST" enctype="multipart/form-data" class="form">
+            <input type="file" name="file"><br>
+            <input type="submit" value="Upload">
+        </form>
+    </div>
+    
+    <a href="{{ url_for('uploaded_images') }}">View Uploaded Images</a>
+</body>
+</html>
